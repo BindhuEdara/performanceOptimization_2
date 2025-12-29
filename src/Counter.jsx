@@ -1,6 +1,6 @@
 import { lazy, Suspense, useState } from "react";
 
-const Data = lazy(()=> import("./assets/Data"))
+const Data = lazy(()=> import("./Data"))
 function Counter() {
 
   const [counter, setCounter] = useState(0);
